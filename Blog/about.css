@@ -1,0 +1,142 @@
+header{
+    position: relative;
+    background: url("about-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0,0,0,0.5); */
+    background-color: rgb(0,0,0,0.4);
+    z-index: 2;
+  }
+  .navbar-brand{
+    font-weight: 700;
+    font-size: em(28);
+    color: white !important;
+    z-index:3
+  }
+  
+  .navbar-nav{
+    z-index:3
+  }
+  
+  .navbar-nav .nav-link{
+    font-weight: 700;
+    color: white !important;
+    text-transform: uppercase;
+    transition: all 0.25s;
+    font-size: em(13);
+  }
+  
+  &:hover{
+    color: #f4f4f4 !important;
+  }
+  
+  .header-title{
+    position: relative;
+    font-weight: 1000;
+    top: 150px;
+    color:white;
+    text-align:center;
+    z-index:3
+  
+  }
+  .prop{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 80px;
+  }
+  .nav-item{
+  
+    font-size: 12px;
+    padding:10px;
+    padding-left: 100px;
+   
+  }
+  
+  .navbar-brand{
+    color:white;
+  }
+  
+  .body-design{
+    padding-top: 90px;
+  }
+  
+  .post-gap{
+    padding-top: 10px;
+  }
+  
+  .title{
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+  }
+  .title:hover{
+    color: #0085a1;
+  }
+  
+  .subtitle{
+    color: black;
+  }
+  
+  .subtitle:hover{
+    color: #0085a1;
+  }
+  
+  .footer-fab {
+    color: black;
+    border-radius: 100%;
+  }
+  .footer-fab:hover {
+    color: #0085a1;
+    border-radius: 100%;
+    text-decoration: none;
+  }
+  .color:hover{
+    color: #0085a1;
+    text-decoration: none;
+  }
+  
+  .home{
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .About{
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .icon{
+    padding-left: 20px;
+    padding-right: 10px;
+    size:12px;
+    padding-top: 10px;
+    
+  }
+  .button{
+    padding-left: 20px;
+    padding-right: 10px;
+    color: #0085a1;
+    position: relative;
+    bottom: 10px;
+    padding-top: 10px;
+    
+  }
+  .btn{
+    color:white;
+    background-color: #0085a1;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  .size{
+    position: relative;
+    bottom:12px;
+  }
+  
